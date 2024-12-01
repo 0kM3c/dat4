@@ -61,7 +61,7 @@ a{
     border: solid;
     border-radius: 10px;
     background-color: rgba(250, 235, 215,0.3);
-    font-size: 1.4em;
+    font-size: 2em;
 }
 .produit{
     grid-column: 1;
@@ -79,6 +79,15 @@ nav{
     border-radius: 10px;
     text-align: center;
     margin:10px;
+    display: flex;
+}
+nav img{
+    margin:5px;
+    border: solid;
+    border-radius: 5px;
+}
+nav p{
+    font-size: 1.7em;
 }
 @media screen and (max-width: 1024px){
     .titre h1{

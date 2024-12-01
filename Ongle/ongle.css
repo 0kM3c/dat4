@@ -81,10 +81,13 @@ nav{
     margin:10px;
 }
 @media screen and (max-width: 1024px){
+    .titre h1{
+        font-size: 3em;
+    }
     section{
         display: grid;
         grid-template-columns: 1;
-        grid-template-rows:auto auto auto;
+        grid-template-rows:3fr 3fr 3fr 3fr;
         gap: 5px;
     }
     .produit{
@@ -98,5 +101,9 @@ nav{
     .exemple{
         grid-column: 1/span2;
         grid-row: 3;
+    }
+    nav p{
+        grid-column: 1/span2;
+        grid-row: 4;
     }
 }

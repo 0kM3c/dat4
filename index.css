@@ -22,7 +22,8 @@ a{
     font-size: 3em;
     color:black;
 }
-button{
+p{
+    background-color:beige;
     border-radius: 10px;
     background-color: brown;
 }

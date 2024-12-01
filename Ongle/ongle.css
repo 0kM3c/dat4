@@ -93,6 +93,9 @@ nav p{
     .titre h1{
         font-size: 3em;
     }
+    .titre img{
+        margin: 10px;
+    }
     .titre{
         background-color: rgba(128, 199, 77, 0.3);
     }

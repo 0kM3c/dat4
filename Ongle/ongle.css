@@ -29,12 +29,12 @@ section{
     gap: 5px;
 }
 p a{
+    text-align :center;
     text-decoration: none;
     font-size: 1.2em;
     color: black;
 }
 p{
-    text-align :center;
     border-radius: 1.5em;
     background-color: beige;
 }

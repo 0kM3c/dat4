@@ -1,8 +1,14 @@
 body{
+    background-image: url("fond.jfif");
+    border: solid;
+    border-radius: 10px;
+}
+.body{
     display:grid;
     grid-template-columns: 0.3fr 2fr;
     grid-template-rows: auto auto auto;
-    background-image: url("fond.jfif");
+    margin:10px;
+    
 }
 h1{
     text-align: center;

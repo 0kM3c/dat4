@@ -26,7 +26,7 @@ body{
     border-top:solid;
     grid-column: 2;
     grid-row: 1;
-    font-size: ;
+    font-size: 3em;
     border-top-color: black;
     color:rgb(0,3,170);
     margin-right: 10px;
@@ -37,7 +37,7 @@ body{
     border-radius: 50%;
     margin:auto;
     border:solid;
-    margin: 5px;
+    margin: 10px;
 }
 
 .corp{
@@ -97,7 +97,7 @@ nav p{
         margin: 10px;
     }
     .titre{
-        background-color: rgba(128, 199, 77, 0.3);
+        background-color: rgba(250, 235, 215,0.3);
     }
     section{
         display: grid;

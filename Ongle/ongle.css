@@ -28,15 +28,13 @@ section{
     grid-template-rows: 1;
     gap: 5px;
 }
-p a{
-    text-align :center;
+a{
     text-decoration: none;
-    font-size: 1.2em;
-    color: black;
-}
-p{
-    border-radius: 1.5em;
-    background-color: beige;
+    color:black;
+    text-align: center;
+    border: solid;
+    border-radius: 10px;
+    background-color: antiquewhite;
 }
 .produit{
     grid-column: 1;
@@ -47,7 +45,7 @@ p{
 .exemple{
     grid-column: 3;
 }
-@media screen and (max-width: 1354px){
+@media screen and (max-width: 425px){
     section{
         margin:10px;
         grid-column:1/span2;

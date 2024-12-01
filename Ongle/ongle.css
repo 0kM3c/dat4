@@ -28,12 +28,12 @@ section{
     grid-template-rows: 1;
     gap: 5px;
 }
-button a{
+p a{
     text-decoration: none;
     font-size: 1.2em;
     color: black;
 }
-button{
+p{
     border-radius: 1.5em;
     background-color: beige;
 }

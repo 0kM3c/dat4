@@ -2,7 +2,6 @@ body{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 4em 4em 4em;
-    row-gap: 1em;
 }
 h1{
     text-align: center;

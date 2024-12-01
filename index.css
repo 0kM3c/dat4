@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 4em 4em 4em;
+    row-gap: 1em;
+}
+h1{
+    text-align: center;
+    grid-column: 1/span2;
+    grid-row: 1;
+}
+.rugby{
+    grid-row: 2;
+    grid-column: 1/span2;
+}
+.ongle{
+    grid-row: 3;
+    grid-column: 1/span2;
+}
+a{
+    text-decoration: none;
+    font-size: 3em;
+    color:black;
+}
+button{
+    border-radius: 10px;
+    background-color: brown;
+}

@@ -45,7 +45,7 @@ a{
 .exemple{
     grid-column: 3;
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 1004px){
     section{
         margin:10px;
         grid-column:1/span2;

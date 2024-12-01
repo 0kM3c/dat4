@@ -46,7 +46,7 @@ button{
 .exemple{
     grid-column: 3;
 }
-@media screen and (max-width: 1054px){
+@media screen and (max-width: 1354px){
     section{
         margin:10px;
         grid-column:1/span2;

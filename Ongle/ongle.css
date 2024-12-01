@@ -1,31 +1,48 @@
 body{
     background-image: url("fond.jfif");
-    border: solid;
-    border-radius: 10px;
+    
 }
 .body{
     display:grid;
-    grid-template-columns: 0.3fr 2fr;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 1;
+    grid-template-rows: auto auto ;
     margin:10px;
+    gap:5px;
     
 }
-h1{
+.titre{
+    display: grid;
+    grid-template-columns: 0.1fr 2fr;
+    grid-template-rows: 1;
+    grid-column: 1;
+    grid-row: 1;
+    border: solid;
+    border-radius: 10px;
+}
+.titre h1{
     text-align: center;
     border-bottom: solid;
     border-bottom-color: black;
     border-top:solid;
-    border-top-color: black;
     grid-column: 2;
     grid-row: 1;
-    color:rgb(0,3,170)
+    font-size: ;
+    border-top-color: black;
+    color:rgb(0,3,170);
+    margin-right: 10px;
 }
-img{
+.titre img{
     grid-column: 1;
     grid-row: 1;
     border-radius: 50%;
     margin:auto;
     border:solid;
+    margin: 5px;
+}
+
+.corp{
+    border: solid;
+    border-radius: 10px;
 }
 section{
     margin:10px;
@@ -61,7 +78,7 @@ nav{
     border:solid;
     border-radius: 10px;
     text-align: center;
-
+    margin:10px;
 }
 @media screen and (max-width: 1024px){
     section{

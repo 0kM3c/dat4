@@ -1,7 +1,8 @@
 body{
     display:grid;
     grid-template-columns: 0.3fr 2fr;
-    grid-template-rows: 90px 40px;
+    grid-template-rows: auto auto auto;
+    background-image: url("fond.jfif");
 }
 h1{
     text-align: center;
@@ -18,6 +19,7 @@ img{
     grid-row: 1;
     border-radius: 50%;
     margin:auto;
+    border:solid;
 }
 section{
     margin:10px;
@@ -31,10 +33,12 @@ section{
 a{
     text-decoration: none;
     color:black;
+    font-weight: bold;
     text-align: center;
     border: solid;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215,0.3);
+
 }
 .produit{
     grid-column: 1;
@@ -45,7 +49,15 @@ a{
 .exemple{
     grid-column: 3;
 }
-@media screen and (max-width: 768px){
+nav{
+    grid-column: 1/span2;
+    grid-row: 3;
+    border:solid;
+    border-radius: 10px;
+    text-align: center;
+
+}
+@media screen and (max-width: 425px){
     section{
         margin:10px;
         grid-column:1/span2;

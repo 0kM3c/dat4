@@ -84,6 +84,9 @@ nav{
     .titre h1{
         font-size: 3em;
     }
+    .titre{
+        background-color: rgba(128, 199, 77, 0.3);
+    }
     section{
         display: grid;
         grid-template-columns: 1;

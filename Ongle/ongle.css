@@ -55,7 +55,7 @@ nav{
     border:solid;
     border-radius: 10px;
     text-align: center;
-    background-color: rgba(250, 235, 215,0.3);
+
 }
 @media screen and (max-width: 768px){
     section{

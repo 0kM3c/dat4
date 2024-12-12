@@ -1,23 +1,32 @@
+
+article{
+    text-align: center;
+}
+.titre{
+    background-color: rgb(33, 37, 41);
+    text-align: center;
+    color:white;
+}
+.titre h1{
+    font-size: 4em;
+}
+
+.color{
+    text-align: center;
+}
+.white{
+    color:white;
+}
 section{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto;
-    margin: 10px;
-    gap:5px
+    background-color: rgb(33, 37, 41);
+    border-radius: 15px;
+    margin:5px;
 }
-section .formation{
-    grid-column:1 ;
-    grid-row: 1;
+.reseau{
+    text-align: center;
 }
-section .competence{
-    grid-column: 2;
-    grid-row: 1/span3;
-}
-section .experience{
-    grid-column: 1;
-    grid-row: 2;
-}
-section .interet{
-    grid-column: 1;
-    grid-row: 3;
+section h4{
+    color:white;
+    display: block;
+    margin: 10px;    
 }

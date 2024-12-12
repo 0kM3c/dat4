@@ -1,0 +1,126 @@
+.titre{
+    background-color: rgb(33, 37, 41);
+    text-align: center;
+    color:white;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: time 1s forwards;
+}
+.titre:nth-child(1){
+    animation-delay: 0.5s;
+}
+.titre h1{
+    font-size: 4em;
+}
+.reseau{
+    text-align: center;
+}
+section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    margin: 20px;
+    gap:10px
+}
+section .formation{
+    grid-column:1 ;
+    grid-row: 1;
+    box-shadow: 5px 5px 15px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: time 1s forwards;
+}
+.formation:nth-child(1) {
+    animation-delay: 1s;
+}
+section .competence{
+    grid-column: 2;
+    grid-row: 1/span3;
+    box-shadow: 5px 5px 15px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: time 1s forwards;
+}
+.competence:nth-child(2) {
+    animation-delay: 1.5s;
+}
+section .experience{
+    grid-column: 1;
+    grid-row: 2;
+    box-shadow: 5px 5px 15px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: time 2s forwards;
+}
+.experience:nth-child(3) {
+    animation-delay: 1.5s;
+}
+section .interet{
+    grid-column: 1;
+    grid-row: 3;
+    box-shadow: 5px 5px 15px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: time 1s forwards;
+}
+.interet:nth-child(4) {
+    animation-delay: 2s;
+}
+article{
+    grid-column: 1/span2;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: time 1s forwards;
+}
+article:nth-child(5) {
+    animation-delay: 2.5s;
+}
+@keyframes time {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+article a{
+    text-decoration: none;
+    color:black;
+    margin:20px;
+    font-size: 2em;
+}
+nav button {
+    background-color: black;
+    width: 60px;
+    height: 50px;
+}
+@media screen and (max-width: 1024px) {
+    section {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: auto auto auto auto;
+        font-size: 1.3em;
+    }
+    section .formation {
+        grid-row: 1;
+        grid-column: 1/span2;
+    }
+    section .competence {
+        grid-row: 2;
+        grid-column: 1/span2;    
+    }
+    section .experience {
+        grid-row: 3;
+        grid-column: 1/span2;
+    }
+    section .interet {
+        grid-row: 4;
+        grid-column: 1/span2;
+    }
+}

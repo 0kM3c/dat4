@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+.error {
+    color: red;
+    margin-top: 10px;
+}
+label{
+    color:white;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+nav{
+    grid-row: 1;
+    grid-column: 1;
+}
+h1{
+    grid-row: 1;
+    grid-column: 2/span4;
+    text-align: center;
+}
+form{
+    grid-row: 2;
+    grid-column: 1/span4;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+    border:solid;
+    border-radius: 5px;
+    background-color: #333;
+}
+.nom{
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.prenom{
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.button{
+    grid-row: 3;
+    grid-column:1/span2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    font-size: 2em;
+    border:solid black;
+    border-radius: 5px;
+    width: 300px;
+}
+.button button:hover{
+    background-color: black;
+    border:white;
+    color:white;
+}
+.button p{
+    grid-row: 3;
+    grid-column: 1/span2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px ;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+    outline: none;
+}
+input:hover {
+    border-color: black;
+    background-color: rgba(76, 175, 80, 0.5);
+}
+#toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.boutton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3    s ease;
+    margin-top:25px;
+}
+
+.boutton:hover {
+    background-color: #45a049;
+}

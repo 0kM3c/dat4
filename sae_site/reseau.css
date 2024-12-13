@@ -1,0 +1,41 @@
+article{
+    text-align: center;
+}
+.titre{
+    background-color: rgb(33, 37, 41);
+    text-align: center;
+    color:white;
+}
+.titre h1{
+    font-size: 4em;
+}
+
+.color{
+    text-align: center;
+}
+.white{
+    color:white;
+}
+section{
+    background-color: rgb(33, 37, 41);
+    border-radius: 15px;
+    margin:5px;
+}
+.reseau{
+    text-align: center;
+}
+.linkedin{
+    color:white;
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: none
+}
+.none{
+    text-decoration: none;
+}
+#message{
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.3em;
+}

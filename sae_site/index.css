@@ -241,23 +241,23 @@ footer a{
         grid-template-rows:auto auto auto auto auto;
         font-size: 1.3em;
     }
-    section .intro{
+    .index_section .intro{
         grid-row: 1;
         grid-column: 1/span2;
     }
-    section .formation {
+    .index_section .formation {
         grid-row: 2;
         grid-column: 1/span2;
     }
-    section .competence {
+    .index_section .competence {
         grid-row: 3;
         grid-column: 1/span2;    
     }
-    section .experience {
+    .index_section .experience {
         grid-row: 4;
         grid-column: 1/span2;
     }
-    section .interet {
+    .index_section .interet {
         grid-row: 5;
         grid-column: 1/span2;
     }

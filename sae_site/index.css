@@ -237,29 +237,32 @@ footer a{
 @media screen and (max-width: 1024px) {
     .index_section {
         display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows:auto auto auto auto auto;
-        font-size: 1.3em;
+        grid-template-columns: 1fr ;
+        grid-template-rows:auto auto auto auto auto auto;
     }
     .index_section .intro{
         grid-row: 1;
-        grid-column: 1/span2;
+        grid-column: 1;
     }
     .index_section .formation {
         grid-row: 2;
-        grid-column: 1/span2;
+        grid-column: 1;
     }
     .index_section .competence {
-        grid-row: 3;
-        grid-column: 1/span2;    
+        grid-row:3;
+        grid-column: 1;    
     }
     .index_section .experience {
         grid-row: 4;
-        grid-column: 1/span2;
+        grid-column: 1;
     }
     .index_section .interet {
-        grid-row: 5;
-        grid-column: 1/span2;
+        grid-row:5 ;
+        grid-column: 1;
+    }
+    .cv{
+        grid-row: 6;
+        grid-column:1;
     }
     nav h5{
         font-size: 3em;
@@ -283,7 +286,6 @@ footer a{
         grid-template-rows: auto auto;
         gap:50px;
         margin-top: 30px;
-        
     }
     .formation_section h5 ,.interet_section h5,.minoterie h5{
         font-size: 2em;

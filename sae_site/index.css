@@ -309,6 +309,9 @@ video:hover{
 
 /*↓ Pour modifier le style quand la page fait moins de 1024 pixels ↓*/
 @media screen and (max-width: 1024px) {
+    header li {
+        font-size: 150%;
+    }
     #size{
         width: 34px;
         height: 34px;

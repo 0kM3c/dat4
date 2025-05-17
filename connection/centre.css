@@ -1,0 +1,42 @@
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 4em 4em 4em 4em;
+}
+h1{
+    text-align: center;
+    grid-column: 1/span2;
+    grid-row: 1;
+}
+.rugby{
+    grid-row: 2;
+    grid-column: 1/span2;
+    background-color: brown;
+    border:solid;
+    border-radius: 10px;
+    text-align: center;
+    margin:10px
+}
+.ongle{
+    grid-row: 3;
+    grid-column: 1/span2;
+    background-color: brown;
+    border:solid;
+    border-radius: 10px;
+    text-align: center;
+    margin:10px
+}
+.sae{
+    grid-row: 4;
+    grid-column: 1/span2;
+    background-color: brown;
+    border:solid;
+    border-radius: 10px;
+    text-align: center;
+    margin:10px
+}
+a{
+    text-decoration: none;
+    font-size: 2em;
+    color:black;
+}
